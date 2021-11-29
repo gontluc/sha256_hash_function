@@ -14,7 +14,7 @@ pre_msg_sch = ['01101010000010011110011001100111', '1011101101100111101011101000
 
 
 # Input message
-msg = "abcd"
+msg = "abc"
 
 
 # Step 1: Convert strings from the input data to binary
