@@ -54,6 +54,7 @@ print()
 
 
 # Step 5: Hash each block
+block_result = []
 for block in blocks:
     block_result = b_hash(block, pre_msg_sch)
     pre_msg_sch = block_result
