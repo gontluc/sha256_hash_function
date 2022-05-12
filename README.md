@@ -1,4 +1,4 @@
-# sha256_python_project
+# sha256_hash_function
 
 PyCharm Sha256 Project
 
