@@ -2,7 +2,7 @@
 
 PyCharm Sha256 Project
 
-@gontluc 12/11/2021
+@gontluc november 2021
 
 Main file: **sha256.py**
 
