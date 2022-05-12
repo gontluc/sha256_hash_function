@@ -1,17 +1,22 @@
 # sha256_python_project
+
 PyCharm Sha256 Project
 
 @gontluc 12/11/2021
 
-main file: sha256.py
+Main file: **sha256.py**
+
+<br/>
 
 ---
 
-OBJECTIVE: Build hash function Sha256 from the beginning.
+OBJECTIVE: Build hash function Sha256.
 
 ---
 
-STEPS OF Sha256:
+<br/>
+
+STEPS OF SHA256:
 
 1. Convert strings from the input data to binary.
 
@@ -30,22 +35,24 @@ STEPS OF Sha256:
 
 7. Concatenate
 
----
-
-DESCRIPTION OF THE OUTPUT: It displays almost every step in the terminal, but it can be easily edited.
+<br/>
 
 ---
+
+DESCRIPTION OF THE OUTPUT: It displays almost every step in the terminal.
+
+---
+
+<br/>
 
 OBSERVATIONS:
 
--It does not work with accents and other characters like "ñ".
+* It does not work with accents and other characters like "ñ".
 
--Probably has some other issues similar to the previous that I have not encountered.
+* Probably has some other issues similar to the previous one that I have not encountered.
 
--First ever finished project in python.
+* First ever finished project in python.
 
--Good learning experience.
+* Good learning experience.
 
--Link to a explanation video:
-
-https://www.youtube.com/watch?v=f9EbD6iY9zI&ab_channel=learnmeabitcoin
+* Here is a [video](https://www.youtube.com/watch?v=f9EbD6iY9zI&ab_channel=learnmeabitcoin) of a good explanation of the steps of SHA256.
