@@ -1,6 +1,6 @@
 # sha256_hash_function
 
-PyCharm Sha256 Project
+SHA256 Hash function
 
 @gontluc november 2021
 
