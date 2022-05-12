@@ -20,4 +20,3 @@ def b_hash(block, pre_msg_sch):
     pre_msg_sch = compress(msg_sch, pre_msg_sch)
 
     return pre_msg_sch
-

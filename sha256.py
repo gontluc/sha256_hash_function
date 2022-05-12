@@ -5,24 +5,26 @@ from pad_len_msg import pad_len
 from pad_msg_blocks import pad_blocks
 from block_hash import b_hash
 
-
 # Constants primeNumber**(1/2)
-pre_msg_sch = ['01101010000010011110011001100111', '10111011011001111010111010000101',
-               '00111100011011101111001101110010', '10100101010011111111010100111010',
-               '01010001000011100101001001111111', '10011011000001010110100010001100',
-               '00011111100000111101100110101011', '01011011111000001100110100011001']
-
+pre_msg_sch = [
+    '01101010000010011110011001100111',
+    '10111011011001111010111010000101',
+    '00111100011011101111001101110010',
+    '10100101010011111111010100111010',
+    '01010001000011100101001001111111',
+    '10011011000001010110100010001100',
+    '00011111100000111101100110101011',
+    '01011011111000001100110100011001'
+]
 
 # Input message
-msg = "abc"
-
+msg = "message"
 
 # Step 1: Convert strings from the input data to binary
 binary_msg = str_to_binary(msg)
 print("Step 1: Convert strings from the input data to binary")
 print(binary_msg)
 print()
-
 
 # Step 2: Count number of blocks
 tuple1 = count_blocks(binary_msg)
@@ -36,13 +38,11 @@ print(
 )
 print()
 
-
 # Step 3: Separate in blocks of 512 bits
 unpad_blocks = separate(binary_msg, 512)
 print("Step 3: Separate in blocks of 512 bits")
 print(unpad_blocks)
 print()
-
 
 # Step 4: Padding last two blocks
 len_msg = bin(len(binary_msg))[2:]
@@ -52,20 +52,17 @@ print("Step 4: Padding last two blocks")
 print(blocks)
 print()
 
-
 # Step 5: Hash each block
 block_result = []
 for block in blocks:
     block_result = b_hash(block, pre_msg_sch)
     pre_msg_sch = block_result
 
-
 # Result of Step 5: Display final hash value of all blocks
 print("Step 5: Final hash value (binary): ")
 for i in block_result:
     print(i)
 print()
-
 
 # Step 6: Convert into hexadecimal
 print("Step 6: Final hash value (hexadecimal): ")
@@ -77,7 +74,6 @@ for i in block_result:
     hex_block.append(hex_word)
     print(hex_word)
 print()
-
 
 # Step 7: Concatenate
 print("Step 7: Concatenate: ")
