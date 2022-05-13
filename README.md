@@ -8,6 +8,10 @@ Main file: **sha256.py**
 
 <br/>
 
+![sha256 image](images/sha256-image.svg)
+
+<br/>
+
 ---
 
 OBJECTIVE: Build hash function Sha256.
