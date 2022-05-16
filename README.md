@@ -22,7 +22,7 @@ OBJECTIVE: Build hash function Sha256.
 
 STEPS OF SHA256:
 
-1. Convert strings from the input data to binary.
+1. Convert string from the input data to binary.
 
 2. Count number of blocks.
 
